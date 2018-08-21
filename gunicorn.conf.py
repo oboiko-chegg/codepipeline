@@ -1,0 +1,9 @@
+bind = '0.0.0.0:7007'
+workers = '2'  # careful of memory
+worker_class = 'gevent'
+preload = True
+timeout = '300'
+log_file = 'log.log'
+error_logfile = 'error.log'
+log_level = 'info'
+daemon = False
