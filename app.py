@@ -9,4 +9,4 @@ class UuidResource:
         resp.media = body
 
 api = falcon.API()
-api.add_route('/uuid', QuoteResource())
+api.add_route('/uuid', UuidResource())
